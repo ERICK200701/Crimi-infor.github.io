@@ -1,0 +1,125 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  background: url('https://cfm.yidio.com/images/tv/58770/1782588/episode-image-400x225.jpg') no-repeat center center fixed;
+      background-size: cover;
+}
+header, nav, footer {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+header {
+  text-align: center;
+  padding: 1rem 2rem;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.9rem 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 1.0rem;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.section {
+  padding: 3rem 2rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 1rem;
+  border-radius: 50px;
+}
+.section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.section p {
+  max-width: 800px;
+  margin: 0 auto 1.5rem auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 500px;
+  text-align: center;
+  backdrop-filter: blur(4px);
+}
+.card h3 {
+  margin-top: 0;
+  color: #f8d05f;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 24rem;
+}
+.imagen-crimen {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.imagen-crimen img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.imagen-crimen p {
+  font-style: italic;
+  margin-top: 8px;
+  color: #f4f4f4;
+}
+table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-family: Arial, sans-serif;
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    tr:hover {
+      background-color: #5F5F5F;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 5px;
+    }
+
+    /* Estilos para las celdas con lista */
+    td ul {
+      margin: 0;
+      padding-left: 20px;
+    }
